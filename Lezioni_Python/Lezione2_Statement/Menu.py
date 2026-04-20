@@ -18,6 +18,7 @@ while scelta != 4:
         uscitaDadi = False
         while not uscitaDadi:
             facce = int(input("Quante facce hanno i tuoi dadi ?"))
+            
             dado1 = random.randint(1, facce)
             dado2 = random.randint(1, facce)
 
@@ -39,7 +40,7 @@ while scelta != 4:
 
     elif scelta == 3:
         print("Hai scelto Wordle")
-        
+
     elif scelta == 4:
         print("Ciao, alla prossima")
         break
